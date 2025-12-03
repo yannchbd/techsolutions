@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/includes/db.php';
 
-$pcs = pdo()->query('SELECT id, name, image_url, price FROM pcs ORDER BY id')->fetchAll();
+$pcs = pdo()->query('SELECT id, name, image_url FROM pcs ORDER BY id')->fetchAll();
 ?>
 <!DOCTYPE html>
 <html lang="fr">
