@@ -63,7 +63,7 @@ CREATE TABLE `pc_components` (
 
 LOCK TABLES `pc_components` WRITE;
 /*!40000 ALTER TABLE `pc_components` DISABLE KEYS */;
-INSERT INTO `pc_components` VALUES (1,1),(1,10),(1,29),(1,34),(1,44),(1,54),(1,66),(1,75),(1,85),(1,86),(1,93),(1,96),(1,102),(1,111),(1,113),(2,4),(2,17),(2,28),(2,34),(2,35),(2,47),(2,55),(2,62),(2,72),(2,85),(2,86),(2,92),(2,96),(2,102),(2,111),(2,113),(3,1),(3,18),(3,27),(3,40),(3,45),(3,59),(3,66),(3,79),(3,81),(3,83),(3,93),(3,99),(3,100),(3,103),(3,110),(3,112),(4,9),(4,12),(4,22),(4,33),(4,42),(4,53),(4,65),(4,70),(4,80),(4,92),(4,96),(4,101),(4,108),(4,110),(4,112),(5,9),(5,17),(5,22),(5,32),(5,46),(5,57),(5,64),(5,73),(5,82),(5,85),(5,92),(5,96),(5,101),(5,108),(5,110),(5,112),(6,10),(6,16),(6,21),(6,32),(6,50),(6,57),(6,64),(6,70),(6,80),(6,94),(6,96),(6,101),(6,107),(6,110),(6,112),(6,116),(7,9),(7,19),(7,25),(7,40),(7,45),(7,59),(7,60),(7,76),(7,83),(7,89),(7,93),(7,100),(7,103),(7,109),(7,110),(7,112),(7,115),(8,9),(8,17),(8,22),(8,33),(8,46),(8,57),(8,64),(8,73),(8,85),(8,87),(8,91),(8,97),(8,101),(8,108),(8,109),(8,111),(8,113),(8,118);
+INSERT INTO `pc_components` VALUES (1,1),(1,10),(1,29),(1,34),(1,44),(1,54),(1,66),(1,75),(1,85),(1,86),(1,93),(1,96),(1,102),(1,111),(1,113),(2,4),(2,17),(2,28),(2,34),(2,35),(2,47),(2,55),(2,62),(2,72),(2,85),(2,86),(2,92),(2,96),(2,102),(2,111),(2,113),(3,1),(3,18),(3,27),(3,40),(3,45),(3,59),(3,66),(3,79),(3,81),(3,83),(3,93),(3,99),(3,100),(3,103),(3,110),(3,112),(4,9),(4,12),(4,22),(4,33),(4,42),(4,53),(4,65),(4,70),(4,80),(4,92),(4,96),(4,101),(4,108),(4,110),(4,112),(5,9),(5,17),(5,22),(5,32),(5,46),(5,57),(5,64),(5,73),(5,82),(5,85),(5,92),(5,96),(5,101),(5,108),(5,110),(5,112),(6,10),(6,16),(6,21),(6,32),(6,50),(6,57),(6,64),(6,70),(6,80),(6,94),(6,96),(6,101),(6,110),(6,112),(7,9),(7,19),(7,25),(7,40),(7,45),(7,59),(7,60),(7,76),(7,83),(7,89),(7,93),(7,100),(7,103),(7,109),(7,110),(7,112),(7,115),(8,9),(8,17),(8,22),(8,33),(8,46),(8,57),(8,64),(8,73),(8,85),(8,87),(8,91),(8,97),(8,101),(8,110),(8,112),(8,118);
 /*!40000 ALTER TABLE `pc_components` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -88,7 +88,7 @@ CREATE TABLE `pcs` (
 
 LOCK TABLES `pcs` WRITE;
 /*!40000 ALTER TABLE `pcs` DISABLE KEYS */;
-INSERT INTO `pcs` VALUES (1,'PC Développeur logiciel','https://media.ldlc.com/r705/ld/products/00/06/14/85/LD0006148565.jpg'),(2,'PC Infrastructures','https://media.ldlc.com/r705/ld/products/00/06/06/28/LD0006062803.jpg'),(3,'PC Design','https://media.ldlc.com/r705/ld/products/00/06/21/80/LD0006218081.jpg'),(4,'PC Marketing/Vente','https://media.ldlc.com/r705/ld/products/00/06/12/71/LD0006127172.jpg'),(5,'PC Support','https://media.ldlc.com/r705/ld/products/00/05/46/04/LD0005460496_2_0006083186.jpg'),(6,'PC RH et Administration','https://media.ldlc.com/r705/ld/products/00/06/27/81/LD0006278180.jpg'),(7,'PC Direction','https://media.ldlc.com/r705/ld/products/00/06/21/80/LD0006218081.jpg'),(8,'PC Déficient visuel','https://media.ldlc.com/r705/ld/products/00/05/46/04/LD0005460496_2_0006083186.jpg');
+INSERT INTO `pcs` VALUES (1,'PC Développeur logiciel','https://media.ldlc.com/r705/ld/products/00/06/14/85/LD0006148565.jpg'),(2,'PC Infrastructures et réseau','https://media.ldlc.com/r705/ld/products/00/06/06/28/LD0006062803.jpg'),(3,'PC Design UX/UI','https://media.ldlc.com/r705/ld/products/00/06/21/80/LD0006218081.jpg'),(4,'PC Marketing/Vente','https://media.ldlc.com/r705/ld/products/00/06/12/71/LD0006127172.jpg'),(5,'PC Support client','https://media.ldlc.com/r705/ld/products/00/05/46/04/LD0005460496_2_0006083186.jpg'),(6,'PC RH et Administration','https://media.ldlc.com/r705/ld/products/00/06/27/81/LD0006278180.jpg'),(7,'PC Direction','https://media.ldlc.com/r705/ld/products/00/06/21/80/LD0006218081.jpg'),(8,'PC Déficient visuel','https://media.ldlc.com/r705/ld/products/00/05/46/04/LD0005460496_2_0006083186.jpg');
 /*!40000 ALTER TABLE `pcs` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -101,4 +101,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-12-11  8:07:07
+-- Dump completed on 2025-12-12  9:13:33

@@ -66,14 +66,14 @@ $pcs = pdo()->query('SELECT id, name, image_url FROM pcs ORDER BY id')->fetchAll
             <ul>
               <?php
                 $stmt = pdo()->prepare('
-                  SELECT c.name
+                  SELECT c.name, c.description
                   FROM pc_components pc
                   JOIN components c ON c.id = pc.component_id
                   WHERE pc.pc_id = ?
                 ');
                 $stmt->execute([(int)$pc['id']]);
                 foreach ($stmt->fetchAll() as $row): ?>
-                  <li><?= e($row['name']) ?></li>
+                  <li><?= e($row['description']) ?> -> <?= e($row['name']) ?></li>
               <?php endforeach; ?>
             </ul>
           </details>
