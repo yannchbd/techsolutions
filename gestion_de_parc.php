@@ -74,6 +74,7 @@ $pcs = pdo()->query('SELECT id, name, image_url FROM pcs ORDER BY id')->fetchAll
                 $stmt->execute([(int)$pc['id']]);
                 foreach ($stmt->fetchAll() as $row): ?>
                   <li><?= e($row['description']) ?> -> <?= e($row['name']) ?></li>
+                  <p>Coucou</p>
               <?php endforeach; ?>
             </ul>
           </details>
